@@ -19,7 +19,7 @@ def main(input_sequences, output_alignment):
 
 if __name__ == '__main__':
     # Parse command line arguments
-    parser = arg.ArgumentParser(description='Extract sequences from xml')
+    parser = arg.ArgumentParser(description='Use the MUSCLE algorithm to align extracted sequences.')
     parser.add_argument('-i', '--input', required=True, help='Input file - requires .fasta from xparse_xml.py')
     parser.add_argument('-o', '--output', required=True, help='Output file path (FASTA)')
 

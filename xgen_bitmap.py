@@ -79,8 +79,8 @@ def main(input, reverse_sense, reverse_order):
     print(pwm)
 
     # If a pwm is less than 0 set it to 0
-    for col in pwm.columns:
-    	pwm[col] = [0 if pwm[col][i] < 0 else pwm[col][i] for i in range(len(pwm))]
+    #for col in pwm.columns:
+    	#pwm[col] = [0 if pwm[col][i] < 0 else pwm[col][i] for i in range(len(pwm))]
 
     # Set index to match numbering desired on x-axis of bitmap
     pwm.index = range(28, 28 + len(pwm))
@@ -116,8 +116,8 @@ if __name__ == '__main__':
     # Parse command line arguments
     parser = arg.ArgumentParser(description='Extract bitmap from alignment')
     parser.add_argument('-i', '--input', required=True, help='Input file - requires .fasta from alignment')
-    parser.add_argument('-rs', '--rev_sense', action='store_true')
-    parser.add_argument('-ro', '--rev_order', action='store_true')
+    parser.add_argument('-rs', '--rev_sense', action='store_true', help='Changes the sense of the bases inplace')
+    parser.add_argument('-ro', '--rev_order', action='store_true', help='Reverses the order of the sequence - index -1 becomes index 0')
     
     args = parser.parse_args()
     
