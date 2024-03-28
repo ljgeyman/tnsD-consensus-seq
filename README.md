@@ -1,5 +1,6 @@
-README.md >> tnsD-consensus-seq
-Last Updated 2024.03.28
+**README.md >> tnsD-consensus-seq**
+
+**Last Updated 2024.03.28**
 
 All of these scripts are intended to be executed in a Unix command line. 
 
