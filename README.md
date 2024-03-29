@@ -101,5 +101,5 @@ This produced the following output [Adapted from Geyman et. al. 2024]:
 ![bitmap](https://github.com/ljgeyman/tnsD-consensus-seq/assets/125898022/1d6f9678-d6f7-444f-a2ec-68745baede07)
 
 Here the numbers on the x-axis indicate the distance from the Tn7 insertion site. The final step also outputs the raw position weight matrix to an excel file:
+[pwm_raw.xlsx](https://github.com/ljgeyman/tnsD-consensus-seq/files/14804863/pwm_raw.xlsx)
 
-[pwm_raw.xlsx](https://github.com/ljgeyman/tnsD-consensus-seq/files/14793466/pwm_raw.xlsx)
